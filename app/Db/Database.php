@@ -7,14 +7,13 @@ use PDOException;
 
 class Database {
 
-    //const HOST = 'localhost';
-    const HOST = 'dev-vagas-do-user-12404634-0.b.db.ondigitalocean.com';
+    const HOST = 'localhost';
 
-    const NAME = 'dev-vagas';
+    const NAME = 'dev_vagas';
 
-    const USER = 'doadmin';
+    const USER = 'root';
 
-    const PASS = 'AVNS_sbt6XcElhjLQ-dVkhqJ';
+    const PASS = '';
 
     private $table;
 
